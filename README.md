@@ -1,5 +1,5 @@
 
-#### Generating additional data for unbalanced classes by jittering the original image.
+## Generating additional data for unbalanced classes by jittering the original image.
 
 In many deep learning applications, we often come across data sets where one type of data may be seen more than other types. For example, in a traffic sign identification task, there may be more stop signs than speed limit signs. Therefore, in these cases, we need to make sure that the trained model is not biased towards the class that has more data. As an example, consider a data set where there are 5 speed limit signs and 20 stop signs. If the model predicts all signs to be stop signs, its accuracy is 80%. Further, f1-score of such a model is 0.88. Therefore, the model has high tendency to be biased toward the 'stop' sign class. In such cases, additional data can be generated to make the size of data sets similar.
 
